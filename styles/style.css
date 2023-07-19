@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+h1 {
+    display: flex;
+    color: #e44f0a;
+    margin: 16px 0;
+    justify-content: center;
+}
+
+.centraliza {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
