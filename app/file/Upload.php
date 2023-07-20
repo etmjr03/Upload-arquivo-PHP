@@ -25,4 +25,12 @@ class Upload {
         $this->error   = $file['error'];
         $this->tamanho = $file['size'];
     }
+
+    // método responsável por mover o arquivo de upload para uma pasta do projeto $dir = diretório (boolean)
+    public function upload($dir) {
+        // verifica se deu erro ao enviar o arquivo
+        if($this->error != 0) return false;
+
+        return true;
+    }
 }
